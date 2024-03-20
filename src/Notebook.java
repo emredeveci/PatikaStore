@@ -1,10 +1,10 @@
 public class Notebook extends Product {
 
-    private String ram;
-    private String storage;
-    private String screenSize;
+    private Integer ram;
+    private Integer storage;
+    private Integer screenSize;
 
-    public Notebook(int id, double unitPrice, double discountRate, int stock, String productName, Brand brand, String ram, String storage, String screenSize) {
+    public Notebook(int id, double unitPrice, double discountRate, int stock, String productName, Brand brand, Integer ram, Integer storage, Integer screenSize) {
         super(id, unitPrice, discountRate, stock, productName, brand);
         this.ram = ram;
         this.storage = storage;
