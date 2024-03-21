@@ -15,4 +15,28 @@ public class Notebook extends Product {
     public void listProperties() {
         System.out.println("Notebooks");
     }
+
+    public Integer getRam() {
+        return ram;
+    }
+
+    public void setRam(Integer ram) {
+        this.ram = ram;
+    }
+
+    public Integer getStorage() {
+        return storage;
+    }
+
+    public void setStorage(Integer storage) {
+        this.storage = storage;
+    }
+
+    public Integer getScreenSize() {
+        return screenSize;
+    }
+
+    public void setScreenSize(Integer screenSize) {
+        this.screenSize = screenSize;
+    }
 }

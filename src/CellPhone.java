@@ -19,4 +19,44 @@ public class CellPhone extends Product{
     public void listProperties() {
         System.out.println("Cellphones");
     }
+
+    public Integer getStorage() {
+        return storage;
+    }
+
+    public void setStorage(Integer storage) {
+        this.storage = storage;
+    }
+
+    public Integer getScreenSize() {
+        return screenSize;
+    }
+
+    public void setScreenSize(Integer screenSize) {
+        this.screenSize = screenSize;
+    }
+
+    public Integer getBatteryCapacity() {
+        return batteryCapacity;
+    }
+
+    public void setBatteryCapacity(Integer batteryCapacity) {
+        this.batteryCapacity = batteryCapacity;
+    }
+
+    public Integer getRam() {
+        return ram;
+    }
+
+    public void setRam(Integer ram) {
+        this.ram = ram;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
 }
